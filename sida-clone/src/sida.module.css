@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    direction: rtl;
+    margin: 50px;
+}
+
+.sida_form {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgb(243, 243, 245);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_number {
+    margin: 10px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.form_text {
+    width: 300px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 5px;
+    padding-inline: 5px;
+}
