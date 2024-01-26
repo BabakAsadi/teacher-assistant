@@ -1,0 +1,77 @@
+﻿.comboBox-main .k-input {
+    margin-right: 1px !important;
+    margin-left: -1px !important;
+    height: 20px !important;
+    line-height: 1.5em;
+    padding: 4px 0 !important;
+    box-shadow: none !important;
+}
+.comboBox-main .k-dropdown-wrap.k-state-default{
+    border-color: #e4e4e4;
+    border-width: .5px !important;
+}
+.comboBox-main .k-state-focused {
+    box-shadow: none !important;
+}
+
+.k-webkit .comboBox-main .k-dropdown-wrap:before, .k-webkit .k-numeric-wrap:before, .k-webkit .k-picker-wrap:before {
+    padding-bottom: 0px !important;
+}
+.comboBox-main .k-dropdown-wrap:before, .k-numeric-wrap:before, .k-picker-wrap:before {
+    height: 1.5em !important;
+    padding-bottom: 0px !important;
+}
+.comboBox-main .k-i-arrow-s {
+    vertical-align: sub;
+}
+.kendocomboBox{
+    position:relative;
+}
+    .kendocomboBox .combobox-lable {
+        position: absolute;
+        z-index: 1;
+        top: -9px;
+        right: 17px;
+        color: #bbb;
+        font-size: 12px;
+    }
+        .kendocomboBox .combobox-lable::after{
+            content: " ";
+            display: block;
+            position: absolute;
+            background: white;
+            height: 2px;
+            top: 50%;
+            left: -.2em;
+            right: -.2em;
+            z-index: -1;
+        }
+
+.comboBox-main .k-input::-webkit-input-placeholder {
+    opacity: .5;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 13px !important;
+}
+
+.comboBox-main .k-input::-moz-placeholder {
+    opacity: .5;
+    transition: all .2s;
+    font-size: 13px !important;
+}
+
+.comboBox-main .k-input:-ms-input-placeholder {
+    opacity: .6;
+    transition: all .2s;
+    font-size: 13px !important;
+}
+
+.comboBox-main .k-input::placeholder {
+    opacity: .5 !important;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 13px !important;
+}
+.k-list-container {
+    overflow-y: auto !important;
+}

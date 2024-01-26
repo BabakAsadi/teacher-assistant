@@ -1,0 +1,544 @@
+#msform .stretched-link {
+    text-decoration: underline !important;
+}
+
+#msform button:disabled {
+    opacity: .5 !important;
+}
+#msform .btn-outline-primary {
+    border: 0px !important;
+}
+
+    #msform .btn-outline-primary:hover {
+        color: #fff !important;
+        background-color: #7b8eff !important;
+        border-color: #007bff !important;
+    }
+#msform #commersial_shecan_note-headar {
+    text-align: justify;
+    font-size: 15px;
+    clear: both;
+    padding: 0px 3em 10px 2em;
+    position: fixed;
+    bottom: 0px;
+    list-style: none;
+    width: 100%;
+    right: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+    #msform #commersial_shecan_note-headar ul {
+        margin-top: 0;
+        margin-bottom: 10px;
+        list-style: inherit;
+        padding: 10px 0 0 0;
+        margin: 0px;
+        overflow: inherit;
+        color: #777;
+    }
+
+    #msform #commersial_shecan_note-headar li {
+        line-height: .5;
+        color: #f0f8ff;
+        text-align: center;
+    }
+.panel-msg-login {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+    padding: 0 15%;
+}
+
+    .panel-msg-login .alert-app {
+        box-shadow: 0 0 5px #ddd !important;
+        opacity: .0;
+        width: 10px;
+    }
+
+.progress.page1 {
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    width: 0% !important;
+}
+
+.jumbotron-custom {
+    background-color: #eeeeee14 !important
+}
+
+.panel-wrapper-show {
+    display: block !important;
+}
+
+.panel-wrapper {
+    display: none;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 777777777777777;
+}
+
+.panel-wrapper-alert {
+    border-radius: 3px;
+    width: 60%;
+    background: #448aff;
+    opacity: .9;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    -webkit-box-shadow: 14px 15px 10px -5px rgba(0,28,46,1);
+    -moz-box-shadow: 14px 15px 10px -5px rgba(0,28,46,1);
+    box-shadow: 14px 15px 10px -5px rgba(0,28,46,1);
+}
+
+.panel-wrapper-alert-close {
+    color: #fff;
+    position: absolute;
+    top: -7px;
+    left: 25px;
+    font-size: 37px;
+    cursor: pointer;
+}
+
+.panel-wrapper-alert p {
+    font-size: 15px;
+}
+
+    .panel-wrapper-alert p i {
+        margin: 0px 0px 0px 8px;
+        color: gainsboro;
+        font-size: 19px;
+    }
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 28px !important;
+}
+
+    #msform .fieldset-login {
+        position: absolute;
+        border: 0px !important;
+        opacity: 1;
+        z-index: 10;
+        display: block;
+        background: white;
+        border: 0 none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #cce9f4 !important;
+        border: 1px solid #cce9f4 !important;
+        box-sizing: border-box;
+        position: relative;
+        padding: 0px !important;
+    }
+
+#local_bg {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #7b8eff;
+    height: 100px;
+    position: relative;
+}
+
+.banner-text {
+    left: 35%;
+    top: 33%;
+    position: absolute;
+}
+
+    .banner-text div p {
+        background-color: rgba(80,80,80, 0.09);
+        width: 145px;
+        margin: auto;
+        padding-top: 4px;
+        border-radius: 25px;
+        color: #FFFFFF;
+        font-size: 20px;
+        padding-bottom: 6px;
+        line-height: 1.5;
+    }
+
+#msform .progress-back {
+    background-color: #E8E8EB;
+}
+
+
+.progress {
+    background-color: #FFC64B;
+    height: 6px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.fieldset-content {
+    padding: 3px 30px;
+   
+    text-align: right;
+}
+
+.right-placeholder {
+    position: relative;
+    padding: 0px;
+}
+
+    .right-placeholder span {
+        pointer-events: none;
+        position: absolute;
+        top: 20%;
+        right: 16px;
+        color: #A3A3A3;
+        z-index: 0;
+    }
+
+.input-lg input {
+    letter-spacing: 13px !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    box-sizing: border-box !important;
+    padding: 9px 15px 9px 20px !important;
+    color: #2C3E50 !important;
+    direction: ltr !important;
+    font-size: 20px !important;
+}
+
+.inpot-letter-spacing input {
+    letter-spacing: 10px !important;
+    font-size: 20px !important;
+}
+
+.input-center {
+    text-align: center;
+}
+.input-left {
+    text-align: left !important;
+}
+#msform #commersial_shecan_note {
+    text-align: justify;
+    font-size: 15px;
+    clear: both;
+    padding: 0px 3em 10px 2em;
+}
+
+    #msform #commersial_shecan_note ul {
+        margin-top: 0;
+        margin-bottom: 10px;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        overflow: inherit;
+        color: #777;
+    }
+
+    #msform #commersial_shecan_note li {
+        line-height: 0 !important;
+        float: right !important;
+        padding: 3px 0 10px !important;
+        width: 50% !important;
+        text-align: center;
+        font-size: 16px;
+        font-style: italic !important;
+    }
+
+.icon-captcha {
+    line-height: 49px;
+    font-size: 28px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+    .icon-captcha:hover {
+        opacity: .5;
+    }
+
+::-webkit-input-placeholder {
+    letter-spacing: 0px;
+    font-size: 15px;
+    text-align: right;
+    color: #A3A3A3;
+}
+
+:-ms-input-placeholder {
+    letter-spacing: 0px;
+    font-size: 15px;
+    text-align: right;
+    color: #A3A3A3;
+}
+
+::placeholder {
+    letter-spacing: 0px;
+    font-size: 15px;
+    text-align: right;
+    color: #A3A3A3;
+}
+
+label {
+    color: #777;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+    #msform {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #msform {
+        padding-top: 48px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #msform {
+        padding-top: 48px !important;
+    }
+}
+
+@media (min-width: 450px) {
+    #msform {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    #msform {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    #msform {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #msform {
+        width: 460px;
+    }
+}
+
+.bg-top {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    top: 20%;
+    border-style: none;
+}
+
+body, html {
+    background-color: #fff !important;
+    direction: rtl !important;
+}
+
+.action-button {
+    background: #FFC64B;
+    color: #777;
+    width: 100%;
+    border: 0 none;
+    cursor: pointer !important;
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-size: 19px;
+    height: 46px;
+    margin: 20px 5px 10px;
+    box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.2);
+}
+
+    .action-button:hover {
+        background: rgb(255, 188, 43);
+        color: #777;
+    }
+
+.panel-login {
+    background-color: #fbfdfe !important;
+}
+
+    .panel-login .header .navbar-default {
+        background-color: #fff !important;
+        box-shadow: 0 0 5px #bfbfbf !important;
+        height:75px!important;
+    }
+
+        .panel-login .header .navbar-default .header-title h5 {
+            color: #333 !important;
+        }
+    .panel-login .headerimg {
+        height: 75px !important;
+    }
+    .panel-login .arm-iran {
+        height: 68px !important;
+    }
+    .panel-login .panel-navbar-ul li .header-title {
+        font-size: 25px ;
+        line-height: 48px;
+    }
+
+/*-----------------responsive-----------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 374px){
+	.panel-login .arm-iran {
+		height: 42px !important;
+	}
+	.panel-login .headerimg {
+		height: 41px !important;
+	}
+	h5.header-title{
+		position: relative;
+		left: 22%;
+    	width: 123%;
+		top: 15px;
+	}
+	.panel-navbar-ul li .header-title {
+		font-size: 14px !important;
+	}
+	.panel-login .panel-navbar-ul li .header-title{
+		line-height: 0;
+	}
+	.panel-login .header .navbar-default{
+		height: 48px;
+	}
+	.arm-iran{
+		margin-right: 3px !important;
+	}
+	.panel-login .header .navbar-default{
+		height: 49px!important;
+	}
+	#msform{
+		padding-top: 0 !important;
+	}
+	.banner-text {
+    	left: 27%;
+	}
+	i.icon-captcha{
+		font-size: 25px;
+	}
+	#msform #commersial_shecan_note-headar{
+		padding: 0px 1em 10px 1em;
+	}
+	li.footer-title{
+		font-size: 10px;
+	}
+}
+@media only screen and (min-width: 375px) and (max-width: 424px){
+	.panel-login .arm-iran {
+		height: 42px !important;
+	}
+	.panel-login .headerimg {
+		height: 41px !important;
+	}
+	h5.header-title{
+		position: relative;
+		left: 22%;
+    	width: 123%;
+		top: 15px;
+	}
+	.panel-navbar-ul li .header-title {
+		font-size: 15px !important;
+	}
+	.panel-login .panel-navbar-ul li .header-title{
+		line-height: 0;
+	}
+	.panel-login .header .navbar-default{
+		height: 48px;
+	}
+	.arm-iran{
+		margin-right: 3px !important;
+	}
+	.panel-login .header .navbar-default{
+		height: 49px!important;
+	}
+	#msform{
+		padding-top: 0 !important;
+	}
+	.banner-text {
+    	left: 31%;
+	}
+	i.icon-captcha{
+		font-size: 25px;
+	}
+	#msform #commersial_shecan_note-headar{
+		padding: 0px 1em 10px 1em;
+	}
+	li.footer-title{
+		font-size: 10px;
+	}
+}
+@media only screen and (min-width: 425px) and (max-width: 767px){
+	.panel-login .arm-iran {
+		height: 42px !important;
+	}
+	.panel-login .headerimg {
+		height: 41px !important;
+	}
+	h5.header-title{
+		position: relative;
+		left: 22%;
+    	width: 123%;
+		top: 15px;
+	}
+	.panel-navbar-ul li .header-title {
+		font-size: 17px !important;
+	}
+	.panel-login .panel-navbar-ul li .header-title{
+		line-height: 0;
+	}
+	.panel-login .header .navbar-default{
+		height: 48px;
+	}
+	.arm-iran{
+		margin-right: 3px !important;
+	}
+	.panel-login .header .navbar-default{
+		height: 49px!important;
+	}
+	#msform{
+		padding-top: 0 !important;
+	}
+	.banner-text {
+    	left: 34%;
+	}
+	i.icon-captcha{
+		font-size: 25px;
+	}
+	#msform #commersial_shecan_note-headar{
+		padding: 0px 1em 10px 1em;
+	}
+	li.footer-title{
+		font-size: 10px;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
+	h5.header-title{
+		width: 299px;
+		position: relative;
+		left: 12%;
+	}
+	i.icon-captcha{
+		font-size: 25px;
+	}
+}
+@media only screen and (min-width : 1024px) and (max-device-width : 1439px){
+	.banner-text {
+    	left: 37%;
+	}
+	i.icon-captcha{
+		font-size: 25px;
+	}
+}
+@media only screen and (min-width : 1440px){
+	i.icon-captcha{
+		font-size: 25px;
+	}
+}

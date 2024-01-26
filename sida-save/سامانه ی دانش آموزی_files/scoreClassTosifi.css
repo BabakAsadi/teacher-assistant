@@ -1,0 +1,49 @@
+﻿
+.k-grid-content .form-control-sm {
+    text-align: center !important;
+    width: 30px !important;
+    height: 15px !important;
+    margin: 0 auto !important;
+}
+.panel-scoreClassTosifi-grid .k-header {
+    text-align: center !important;
+}
+
+
+.k-grid-content tbody [role='gridcell'] {
+}
+
+.hideColumn {
+   display: none !important;
+}
+.hideShow {
+    display: block !important;
+    text-align: center !important;
+}
+[data-value] {
+    height: 125px !important;
+    writing-mode: vertical-rl !important;
+    font-size: 13px !important;
+    text-orientation: mixed !important;
+    white-space: pre-wrap !important;
+    white-space: -moz-pre-wrap !important;
+    white-space: -pre-wrap !important;
+    white-space: -o-pre-wrap !important;
+    word-wrap: break-word !important;
+    height: 125px !important;
+}
+.jumbotron {
+    border: 1px dashed #a8afa5f0;
+    background-color: #eeeeee3d !important;
+    padding-top: 8px !important;
+    padding-bottom: 1px !important;
+    padding-right: 7px;
+    padding-left: 8px;
+}
+.selected-custome-accept {
+    background-color: #4cff00 !important;
+}
+
+.selected-custome {
+    background-color: orange !important;
+}

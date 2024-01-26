@@ -1,0 +1,167 @@
+﻿#menu-right {
+    position: fixed;
+    width: 90px;
+    right: 0px;
+    top: 50px;
+    bottom: 0px;
+    z-index: 12;
+    box-shadow: 0px 5px 10px 1px rgba(80,80,80, 0.2);
+    background-color: #FCFCFE;
+}
+
+#right-menu-system, .panel-sub-menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+    #right-menu-system .menu-system {
+        display: block;
+        cursor: pointer;
+        transition: .4s background-color;
+        text-align: center !important;
+        border-bottom: 1px dashed #ddd;
+    }
+
+        #right-menu-system .menu-system:hover {
+            background: rgba(80,80,80, 0.18);
+        }
+
+        #right-menu-system .menu-system a {
+            display: block;
+            padding: 12px 0;
+            position: relative;
+            overflow: hidden;
+            color: rgba(0, 0, 0, 0.54);
+            text-align: center;
+            cursor: pointer;
+            font-size: 13px !important;
+        }
+
+            #right-menu-system .menu-system a i {
+                display: block;
+                background-repeat: no-repeat;
+                height: 49px;
+                margin-left: 30px;
+            }
+
+.panel-sub-menu {
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+    background-color: #fafafa;
+    position: fixed;
+    top: 50px;
+    right: 90px;
+    bottom: 0px;
+    z-index: 11;
+    width: 0;
+    padding-top: 6px;
+}
+
+.card-header .btn {
+    padding: 5px 5px !important;
+}
+
+.panel-sub-menu .card {
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    border: none !important;
+    border-bottom: 1px dashed rgba(0,0,0,.125) !important;
+}
+
+    .panel-sub-menu .card i {
+        line-height: 23px !important;
+        font-size: 13px !important;
+        margin-left: 5px;
+    }
+
+.panel-sub-menu .card-header {
+    display: grid;
+    text-align: right;
+    padding: 0px !important;
+    background-color: transparent !important;
+}
+
+.panel-sub-menu .card-body {
+    padding: 2px 0px !important;
+    margin: 0px !important;
+    background: rgba(80,80,80, 0.04);
+}
+
+.panel-sub-menu .btn-link {
+    display: block;
+    color: #777 !important;
+}
+.accordion .submenu li .submenu a{
+    cursor:pointer !important;
+}
+.accordion .submenu li:hover {
+    background-color: #cfd8dc38;
+    color: #30826a !important;
+}
+
+.accordion .submenu {
+    padding: 0;
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+}
+
+    .accordion .submenu li {
+        transition: .2s background-color;
+        padding: 5px 15px 8px 9px;
+        margin: 0px;
+        font-size: 14px;
+        margin: 0px;
+        font-size: 13px;
+        border-bottom: 1px dashed rgba(0,0,0,.125) !important;
+    }
+
+        .accordion .submenu li:last-child {
+            border-bottom: none !important;
+        }
+
+.panel-sub-menu .submenu a {
+    padding: 0px 8px 0px 1px;
+    text-decoration: none;
+    margin: 0px;
+    font-size: 14px;
+    color: #777;
+    display: block;
+    cursor:pointer !important;
+}
+
+.panel-sub-menu .card-header span {
+    color: #2196F3 !important;
+    font-size: 17px;
+}
+
+.panel-sub-menu ul .panel-sub-menu-detail {
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.panel-sub-menu ul i {
+    display: block;
+    float: right;
+    margin-left: 6px;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.panel-sub-menu i.close-sub-panel {
+    position: absolute;
+    top: 6px;
+    left: 11px;
+    cursor: pointer;
+}
+
+.panel-sub-menu .card-header {
+    box-shadow: 0 0 5px rgba(57, 70, 78, 0.2);
+}
+.panel-sub-menu .headingOne {
+}

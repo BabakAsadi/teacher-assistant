@@ -1,0 +1,73 @@
+﻿button.action-btn[disabled] {
+    opacity: .3;
+    box-shadow: none !important;
+}
+.action-btn {
+    margin: 7px;
+    transition: color .15s ease-in-out,background-color .2s ease-in-out,border-color .4s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 14px;
+    fill: #000000;
+    cursor: pointer !important;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    border-radius: 50px 50px 50px 50px;
+    padding: 7px 30px /*!important*/;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ddd;
+}
+    .action-btn i{
+        margin-left:5px !important;
+    }
+    .submit-default:hover {
+        background: rgba(80,80,80, 0.2) !important;
+    }
+
+.submit-cancel {
+    border-color: #de6737;
+    background-color: #de6737;
+    color: #ffffff !important;
+}
+
+.submit-warning {
+    background: #FFC64B !important;
+    color: #777 !important;
+}
+
+    .submit-warning:hover {
+        background-color: #ffdb8d !important;
+    }
+
+.submit-success {
+    border-color: #40b559;
+    color: #ffffff;
+    background-color: #40b559;
+}
+
+    .submit-success:hover {
+        background-color: #2c723b !important;
+    }
+
+.submit-primary {
+    background-color: #7b8eff;
+    color: #ffffff;
+}
+.submit-info {
+    background-color: #11b8ff;
+    border-color: #0098da;
+    color: #fff;
+}
+    .submit-info:hover {
+        background-color: #0098da;
+    }
+.submit-dungger {
+    border-color: #de6737;
+    background-color: #de6737;
+    color: #ffffff !important;
+}
+    .submit-primary:hover {
+        background-color: #94a4ff !important;
+    }
+.modal-footer .action-btn {
+    padding: 4px 30px !important;
+    margin: 1px 7px !important;
+}

@@ -1,0 +1,85 @@
+﻿.panel-right-pupop {
+    padding: 0px 0 0 8px;
+    margin: 0px;
+    margin-top: -11px;
+}
+    .panel-right-pupop legend {
+        font-size: 15px !important;
+        padding: 0px 18px 1px 7px !important;
+    }
+
+.panel-select .input-group-text {
+    background-color: #f5f5f5 !important;
+    position: absolute;
+    left: 0px;
+    font-size: 13px !important;
+    line-height: 16px;
+    border-radius: 4px 0px 0px 4px;
+    cursor: pointer;
+}
+
+.panel-select .input-group-text i{
+    margin-left: 4px;
+    line-height: 2px;
+}
+.panel-prs .modal-body {
+    padding: 2px 6px !important;
+}
+
+.panel-select-fill{
+    position: absolute;
+    top: 1px;
+    bottom: 9px;
+    right: 1px;
+    left: 72px;
+    background: #fafafa;
+    z-index: 3;
+    opacity: .0;
+}
+    .panel-select-fill[disabled="disabled"] {
+        opacity: .5 !important;
+        background: #f5f5f5 !important;
+    }
+    .panel-select-fill.bootstrap {
+        bottom: 0px;
+    }
+
+.input-group > button {
+    font-size: 13px;
+    line-height: 11px;
+}
+
+    .input-group > button.btn-clear {
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+    .input-group > button.btn-add {
+        border-top-left-radius: 3px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 3px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+.btn-plus {
+    position: absolute;
+    right: 12px;
+    padding: 0.25rem 0.2rem 0.2rem 0.25rem;
+    font-size: .6rem;
+    line-height: 0.5;
+}
+
+.form-control:disabled, .k-input:disabled, .form-control[readonly] {
+    /*background-color: #f3f3f3 !important;*/
+    background-color: #e9ecef !important;
+    opacity: .6 !important;
+    color: #444;
+}
+
+.panel-select-fill[disabled="disabled"] {
+    opacity: .6 !important;
+    background-color: #e9ecef !important;
+    color: #444;
+}
