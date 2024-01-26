@@ -17,13 +17,22 @@ module.exports = {
                 ],
                 exclude: /node_modules/,
             },
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            }
         ],
     },
     resolve: {
-        extensions: [".tsx", ".ts", ".js"],
+        extensions: [".tsx", ".ts", ".js",],
     },
     output: {
         filename: "content.js",
         path: path.resolve(__dirname, "..", "extension"),
     },
 };
+
+
